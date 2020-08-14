@@ -15,6 +15,7 @@
 #define _VSARDUINO_H_
 #define __ESP8266_esp8266__
 #define __ESP8266_ESP8266__
+#define _VMDEBUG 1
 #define __ets__
 #define ICACHE_FLASH
 #define NONOSDK22x_190703 1
@@ -114,5 +115,8 @@ typedef long __PTRDIFF_TYPE__;
 #define noInterrupts() cli()
 
 #include "pingpongclock.ino"
+#include "clock.ino"
+#include "effects.ino"
+#include "webserver.ino"
 #endif
 #endif

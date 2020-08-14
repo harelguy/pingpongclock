@@ -19,6 +19,9 @@
     <None Include="src\arduino folders read me.txt">
       <Filter>Misc Files</Filter>
     </None>
+    <None Include="webserver.ino" />
+    <None Include="clock.ino" />
+    <None Include="effects.ino" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.pingpongclock.vsarduino.h">
