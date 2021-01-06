@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+      body { padding: 0; margin: 0; background-color: #09F;}
+      #pts { position: absolute; top: 50px; bottom: 0; left: 0; right: 0;}
+      h3 { font: 16px/50px sans-serif; margin: 0; padding: 0 0 0 20px; font-weight: 600;}
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+          <div class="col twelve">
+              <h1>Pingpong Ball Clock</h1>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col three">
+              <a class="btn btn-rouge" href="/switch/0">Clock</a>
+          </div>
+
+          <div class="col three">
+              <a class="btn btn-sunflower" href="/switch/1">Plasma</a>
+          </div>
+
+          <div class="col three">
+              <a class="btn btn-sea" href="/switch/2">Screensaver</a>
+          </div>
+
+          <div class="col three">
+              <a class="btn btn-orange" href="/switch/3">Draw</a>
+          </div>
+      </div>
+      <div class="row">
+        <div id="ws-indicator"></div>
+        <div id="pts" style="height: 400px"></div>
+      </div>
+  </div>
+
+    
+  </body>
+</html>
